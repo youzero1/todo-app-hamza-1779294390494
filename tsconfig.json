@@ -19,11 +19,12 @@
     "paths": {
       "@/*": ["src/*"]
     },
+    "types": ["vite/client"],
     "noImplicitAny": false,
     "strictNullChecks": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.app.json" }]
+  "exclude": ["node_modules"]
 }
